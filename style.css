@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "ITC Stone";
+    src: url("Font/Yu-Gi-Oh!\ ITC\ Stone\ Serif\ Small\ Caps\ Bold.ttf");
+}
+@font-face {
+    font-family: "Matrix";
+    src: url("Font/Yu-Gi-Oh!\ Matrix\ Regular\ Small\ Caps\ 1.ttf");
+}
+body{
+    font-family: "ITC Stone";
+}
+
+header{
+    background-color: rgb(5, 29, 80);
+    width: 100vw;
+}
+.logo{
+    padding-left: 10px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.logo__imagen{
+    width: 12.5rem;
+}
+.navegacion{
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+}
+.navegacion__contenedor{
+    float: right;
+    margin-left: 200px;
+}
+.navegacion__item{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+.navegacion__item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.navegacion__item a:hover{
+    color:rgb(70, 155, 253);
+}
+main{
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+}
+.aside{
+    height: 100%;
+    width: 20%;
+    padding: 10px 0;
+    display: inline-block;
+    background-color: rgb(7, 29, 77);
+}
+.contenedor{
+    height: 30%;
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.contenedor img{
+    width: 6.25rem;
+}
+.contenedor--salamangreat{
+    background: linear-gradient(70deg,rgb(5, 29, 80),80%,hsl(266, 97%, 45%));
+    border: solid 4px hsl(266, 97%, 45%);
+}
+.contenedor--tearlament{
+    background: linear-gradient(70deg,rgb(5, 29, 80),80%,rgb(10, 157, 255));
+    border: solid 4px rgb(10, 157, 255);
+}
+.contenedor--rokket{
+    background: linear-gradient(70deg,rgb(5, 29, 80),80%,aquamarine);
+    border: solid 4px aquamarine;
+}
+.principal{
+    display: inline-block;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    background-color: rgb(221, 223, 245);
+}
+
+.carta{
+    display: inline-block;
+    min-height: 70%;
+    width: 27%;
+    border: solid 3px;
+    margin: 5px 3% 0 3%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.carta--ash figcaption{
+    margin: 10px 0;
+}
+.carta--ash .imagen{
+    margin-top: 20px;
+}
+.imagen{
+    width: 200px;
+}
+.carta p{
+    font-family: "Matrix";
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.footer{
+    text-align: center;
+    width: 100vw;
+    position: relative;
+    background-color: rgb(5, 29, 80);
+    height: 3.3125rem;
+}
+.footer figure{
+    display: inline-block;
+}
+.footer img{
+    width: 70px;
+}
+.footer p{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: white;
+}
+
